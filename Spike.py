@@ -438,7 +438,7 @@ def buy_coins(message):
 
 @bot.callback_query_handler(func=lambda call: call.data.startswith("buy_"))
 def handle_buy_callback(call):
-    admin_username = "@SYGDEVIL"  # Replace with your admin username
+    admin_username = "@Pyschoboi"  # Replace with your admin username
     coin_plans = {
         "buy_50": "50 coins \n💰 𝗣𝗿𝗶𝗰𝗲: 75 Rs",
         "buy_100": "100 coins \n💰 𝗣𝗿𝗶𝗰𝗲: 150 Rs",
