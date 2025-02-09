@@ -134,7 +134,7 @@ def start_command(message):
     else:
         markup.add(attack_button, myinfo_button, coin_button)
     
-    bot.reply_to(message, "𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗺𝗲𝗴𝗼𝘅𝗲𝗿 𝗯𝗼𝘁!", reply_markup=markup)
+    bot.reply_to(message, "𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗗𝗗𝗢𝗦𝘅𝗖𝗫𝗧 𝗯𝗼𝘁!", reply_markup=markup)
     
 @bot.message_handler(func=lambda message: message.text == "⚙️ Settings")
 def settings_command(message):
